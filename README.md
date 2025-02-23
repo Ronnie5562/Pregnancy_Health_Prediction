@@ -25,7 +25,7 @@ I got my dataset from [kaggle](https://www.kaggle.com/datasets/csafrit2/maternal
 
 | Model | Optimizer | Regularization | Epochs | Early Stopping | Layers | Learning Rate | Accuracy | F1 Score | Recall | Precision | AUC |
 |--------|------------|---------------|--------|---------------|--------|--------------|----------|----------|--------|-----------|------|
-| **Instance 1** - | - | 100 | No | 2 | 0.001 | 65.00% | 0.66 | 0.67 | 0.67 | 0.64 |
+| **Instance 1** | - | - | 100 | No | 2 | 0.001 | 65.00% | 0.66 | 0.67 | 0.67 | 0.64 |
 | **Instance 2** | Adam | L1 | 100 | Yes | 2 | 0.001 | 64% | 0.62 | 0.65 | 0.62 | 0.64 |
 | **Instance 3** | Adam | L2 | 100 | Yes | 2 | 0.001 | 61% | 0.58 | 0.62 | 0.59 | 0.61 |
 | **Instance 4** | RMSprop | L1_L2 | 100 | Yes | 2 | 0.0001 | 63% | 0.61 | 0.64 | 0.62 | 0.633 |
